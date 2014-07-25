@@ -28,6 +28,9 @@
 (setq suggest-key-bindings t)
 (setq vc-follow-symlinks t)
 
+;;Agregar newline para crontab
+(setq require-final-newline t)
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
