@@ -202,8 +202,8 @@ export GREP_COLOR='1;31' # green for matches
 # 2.5) sort options
 # Ensures cross-platform sorting behavior of GNU sort.
 # http://www.gnu.org/software/coreutils/faq/coreutils-faq.html#Sort-does-not-sort-in-normal-order_0021
-unset LANG
-export LC_ALL=POSIX
+#unset LANG
+#export LC_ALL=POSIX
 
 # 2.6) Install rlwrap if not present
 # http://stackoverflow.com/a/677212
@@ -226,3 +226,9 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/jaime/google-cloud-sdk/path.bash.inc'
+
+# The next line enables bash completion for gcloud.
+source '/home/jaime/google-cloud-sdk/completion.bash.inc'
