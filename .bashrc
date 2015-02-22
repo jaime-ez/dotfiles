@@ -233,5 +233,5 @@ source '/home/jaime/google-cloud-sdk/path.bash.inc'
 # The next line enables bash completion for gcloud.
 source '/home/jaime/google-cloud-sdk/completion.bash.inc'
 
-#node path
+#add usr/local/lib to node path. /usr/local muts be owned by the incumbent user
 export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/usr/local/lib/node_modules
