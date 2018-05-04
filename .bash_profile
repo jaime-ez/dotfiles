@@ -54,13 +54,6 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
-#autocompletar git commands
-
-if [ -f ~/dotfiles/.git-completion.bash ]; then
-  . ~/dotfiles/.git-completion.bash
-fi
-
-
 # Configure PATH
 #  - These are line by line so that you can kill one without affecting the others.
 #  - Lowest priority first, highest priority last.
