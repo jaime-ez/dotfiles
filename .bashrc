@@ -211,5 +211,3 @@ export GREP_COLOR='1;31' # green for matches
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
-
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
