@@ -3,7 +3,10 @@ dotfiles.git
 
 ```sh
 cd $HOME
-git clone https://github.com/jaime-ez/dotfiles.git github
+mkdir github
+cd github
+git clone https://github.com/jaime-ez/dotfiles.git
+cd $HOME
 ln -sb github/dotfiles/.bash_profile .
 ln -sb github/dotfiles/.bashrc .
 ln -sb github/dotfiles/.bashrc_custom .
