@@ -1,4 +1,4 @@
-dotfiles.git
+﻿dotfiles.git
 ============
 
 ```sh
@@ -13,3 +13,13 @@ ln -sb github/dotfiles/.bashrc_custom .
 ln -sb github/dotfiles/.npmrc .
 ln -sb github/dotfiles/.screenrc .
 ```
+
+If you want to enable auto start GNU screen:
+
+```
+chmod +x github/dotfiles/auto_screen.sh
+echo '~/github/dotfiles/auto_screen.sh' >> ~/.bashrc_custom
+#reload
+source ~/.bashrc
+```
+
